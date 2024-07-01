@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE EDITOR</title>
+    <!-- font awesome -->
+
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/78edd613c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>WEB DEV CODE EDITOR</h1>
+  
+    <div class="container">
+        <div class="left">
+            <!-- Html code  -->
+            <label><i class="fa-brands fa-html5"></i>Html</label>
+            <textarea id="html-code" onkeyup="run()"></textarea>
+            
+            <!-- css -->
+            <label><i class="fa-brands fa-css3-alt"></i>CSS</label>
+            <textarea id="css-code" onkeyup="run()"></textarea>
+
+            <!-- js -->
+            <label><i class="fa-brands fa-js"></i>JS</label>
+            <textarea id="js-code" onkeyup="run()"></textarea>
+        </div>
+        <div class="right">
+            <label><i class="fa-sharp fa-solid fa-code"></i>Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    <script src="index.js"></script>
+</body>
+<footer>
+    <p>Abhishek John Charan</p>
+</footer>
+</html>
